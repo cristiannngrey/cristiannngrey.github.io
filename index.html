@@ -45,69 +45,61 @@
 
   <section id="projects" class="section">
     <h2>Projects</h2>
-      <div class="project-gallery">
-        <div class="project-item" onclick="openModal('project1')">
-          <img src="img/dummy-thumbnail.jpg" class="project-thumbnail" alt="POS System">
-          <div class="project-description">
-            <h3>Web-based POS System</h3>
-            <p>Built with PHP, MySQL, and JavaScript.</p>
-          </div>
+    <div class="project-gallery">
+  
+      <!-- Project 1 -->
+      <div class="project-item" onclick="openModal('project1')">
+        <img src="img/dummy-thumbnail.jpg" alt="POS System" class="project-thumbnail" />
+        <div class="project-description">
+          <h3>POS System</h3>
+          <p>PHP, MySQL, JavaScript — order processing, reports, kitchen display.</p>
         </div>
       </div>
-      
-      <!-- MODAL -->
-      <div id="project1-modal" class="modal">
-        <span class="close" onclick="closeModal('project1')">&times;</span>
-        <div class="modal-content">
-          <img src="img/dummy-thumbnail.jpg" class="modal-image">
-          <img src="img/dummy-thumbnail.jpg" class="modal-image">
-          <img src="img/dummy-thumbnail.jpg" class="modal-image">
-        </div>
-      </div> <!-- project 1 -->
-
-      <div class="project-gallery">
-        <div class="project-item" onclick="openModal('project1')">
-          <img src="img/dummy-thumbnail.jpg" class="project-thumbnail" alt="POS System">
-          <div class="project-description">
-            <h3>Web-based POS System</h3>
-            <p>Built with PHP, MySQL, and JavaScript.</p>
-          </div>
+  
+      <!-- Project 2 -->
+      <div class="project-item" onclick="openModal('project2')">
+        <img src="img/dummy-thumbnail.jpg" alt="Portfolio Site" class="project-thumbnail" />
+        <div class="project-description">
+          <h3>Simple Portfolio</h3>
+          <p>Minimalist HTML/CSS portfolio with responsive design.</p>
         </div>
       </div>
-      
-      <!-- MODAL -->
-      <div id="project2-modal" class="modal">
-        <span class="close" onclick="closeModal('project2')">&times;</span>
-        <div class="modal-content">
-          <img src="img/dummy-thumbnail.jpg" class="modal-image">
-          <img src="img/dummy-thumbnail.jpg" class="modal-image">
-          <img src="img/dummy-thumbnail.jpg" class="modal-image">
-        </div>
-      </div><!-- project 2 -->
-
-      <div class="project-gallery">
-        <div class="project-item" onclick="openModal('project1')">
-          <img src="img/dummy-thumbnail.jpg" class="project-thumbnail" alt="POS System">
-          <div class="project-description">
-            <h3>Web-based POS System</h3>
-            <p>Built with PHP, MySQL, and JavaScript.</p>
-          </div>
+  
+      <!-- Project 3 -->
+      <div class="project-item" onclick="openModal('project3')">
+        <img src="img/dummy-thumbnail.jpg" alt="Marketing Assets" class="project-thumbnail" />
+        <div class="project-description">
+          <h3>Marketing Assets</h3>
+          <p>Canva-based designs for branding and social media.</p>
         </div>
       </div>
-      
-      <!-- MODAL -->
-      <div id="project3-modal" class="modal">
-        <span class="close" onclick="closeModal('project3')">&times;</span>
-        <div class="modal-content">
-          <img src="img/dummy-thumbnail.jpg" class="modal-image">
-          <img src="img/dummy-thumbnail.jpg" class="modal-image">
-          <img src="img/dummy-thumbnail.jpg" class="modal-image">
-        </div>
-      </div><!-- project 3 -->
-      
     </div>
   </section>
-  
+
+  <!-- Modal Template -->
+<div id="project1-modal" class="modal">
+  <span class="close">&times;</span>
+  <div class="modal-content">
+    <img src="img/dummy-thumbnail.jpg" class="modal-image">
+    <img src="img/dummy-thumbnail.jpg" class="modal-image">
+  </div>
+</div>
+
+<div id="project2-modal" class="modal">
+  <span class="close">&times;</span>
+  <div class="modal-content">
+    <img src="img/dummy-thumbnail.jpg" class="modal-image">
+    <img src="img/dummy-thumbnail.jpg" class="modal-image">
+  </div>
+</div>
+
+<div id="project3-modal" class="modal">
+  <span class="close">&times;</span>
+  <div class="modal-content">
+    <img src="img/dummy-thumbnail.jpg" class="modal-image">
+  </div>
+</div>
+
 
   <div class="footer">
     &copy; 2025 Cristian Hamoay
