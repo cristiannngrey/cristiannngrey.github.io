@@ -67,4 +67,13 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
+
+//Fix close button on Modal
+  document.addEventListener("click", function (e) {
+    if (e.target.classList.contains("close")) {
+      const modal = e.target.closest(".modal");
+      if (modal) modal.style.display = "none";
+    }
+  });
+  
   
