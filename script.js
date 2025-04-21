@@ -50,4 +50,21 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   });
   
+  function openModal(projectId) {
+    document.getElementById(`${projectId}-modal`).style.display = "block";
+  }
+  
+  function closeModal(projectId) {
+    document.getElementById(`${projectId}-modal`).style.display = "none";
+  }
+  
+  // Optional: Close modal on outside click
+  window.addEventListener("click", function (e) {
+    const modals = document.querySelectorAll(".modal");
+    modals.forEach(modal => {
+      if (e.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+  });
   

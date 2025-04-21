@@ -45,36 +45,66 @@
 
   <section id="projects" class="section">
     <h2>Projects</h2>
-    <div class="project-gallery">
-      <div class="project-item">
-        <a href="https://example.com/project1" target="_blank">
-          <img src="img/dummy-thumbnail.jpg" alt="Project 1 Thumbnail" class="project-thumbnail" />
+      <div class="project-gallery">
+        <div class="project-item" onclick="openModal('project1')">
+          <img src="img/dummy-thumbnail.jpg" class="project-thumbnail" alt="POS System">
           <div class="project-description">
             <h3>Web-based POS System</h3>
-            <p>PHP, MySQL, JavaScript</p>
+            <p>Built with PHP, MySQL, and JavaScript.</p>
           </div>
-        </a>
+        </div>
       </div>
       
-      <div class="project-item">
-        <a href="https://example.com/project2" target="_blank">
-          <img src="img/dummy-thumbnail.jpg" alt="Project 2 Thumbnail" class="project-thumbnail" />
+      <!-- MODAL -->
+      <div id="project1-modal" class="modal">
+        <span class="close" onclick="closeModal('project1')">&times;</span>
+        <div class="modal-content">
+          <img src="img/dummy-thumbnail.jpg" class="modal-image">
+          <img src="img/dummy-thumbnail.jpg" class="modal-image">
+          <img src="img/dummy-thumbnail.jpg" class="modal-image">
+        </div>
+      </div> <!-- project 1 -->
+
+      <div class="project-gallery">
+        <div class="project-item" onclick="openModal('project1')">
+          <img src="img/dummy-thumbnail.jpg" class="project-thumbnail" alt="POS System">
           <div class="project-description">
-            <h3>Simple Portfolio Site</h3>
-            <p>HTML, CSS, JavaScript</p>
+            <h3>Web-based POS System</h3>
+            <p>Built with PHP, MySQL, and JavaScript.</p>
           </div>
-        </a>
+        </div>
       </div>
       
-      <div class="project-item">
-        <a href="https://example.com/project3" target="_blank">
-          <img src="img/dummy-thumbnail.jpg" alt="Project 3 Thumbnail" class="project-thumbnail" />
+      <!-- MODAL -->
+      <div id="project1-modal" class="modal">
+        <span class="close" onclick="closeModal('project1')">&times;</span>
+        <div class="modal-content">
+          <img src="img/dummy-thumbnail.jpg" class="modal-image">
+          <img src="img/dummy-thumbnail.jpg" class="modal-image">
+          <img src="img/dummy-thumbnail.jpg" class="modal-image">
+        </div>
+      </div><!-- project 2 -->
+
+      <div class="project-gallery">
+        <div class="project-item" onclick="openModal('project1')">
+          <img src="img/dummy-thumbnail.jpg" class="project-thumbnail" alt="POS System">
           <div class="project-description">
-            <h3>Marketing Assets</h3>
-            <p>Designed with Canva</p>
+            <h3>Web-based POS System</h3>
+            <p>Built with PHP, MySQL, and JavaScript.</p>
           </div>
-        </a>
+        </div>
       </div>
+      
+      <!-- MODAL -->
+      <div id="project1-modal" class="modal">
+        <span class="close" onclick="closeModal('project1')">&times;</span>
+        <div class="modal-content">
+          <img src="img/dummy-thumbnail.jpg" class="modal-image">
+          <img src="img/dummy-thumbnail.jpg" class="modal-image">
+          <img src="img/dummy-thumbnail.jpg" class="modal-image">
+        </div>
+      </div><!-- project 3 -->
+      
     </div>
   </section>
   
